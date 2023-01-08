@@ -75,6 +75,12 @@ cd into the directory
 cd sham
 ```
 
+install nessesary apps
+
+```
+chmod +x installcommands.sh && ./installcommands.sh
+```
+
 compile it
 
 ```
