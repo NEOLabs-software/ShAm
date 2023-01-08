@@ -78,7 +78,7 @@ cd sham
 install nessesary apps
 
 ```
-chmod +x installcommands.sh && ./installcommands.sh
+chmod +x installcommands.sh && sudo ./installcommands.sh
 ```
 
 compile it
