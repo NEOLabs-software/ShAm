@@ -10,3 +10,14 @@
 			* meson.build
 			* MAINTAINERS
 			* README.md
+
+
+2023-12-18 NEOLabs-software <neolabs-software@proton.me>
+
+
+			* doc/developer/code_comments/source_code_comments.md 
+			* doc/developer/build_instructions.md 
+			* doc/man/sham.1: create sham page
+			* doc/support/contact_info.md 
+			* doc/user/tutorials/instalation.md 
+			* doc/user/manual.md 

@@ -1,0 +1,24 @@
+.\" Manpage for sham.
+.\" Contact neolabssoftware@proton.me to correct errors or typos.
+.TH sham 1 "18 december 2023" "1.0.0" "sham man page"
+.SH NAME
+sham \- compile a shell script into an ELF file 
+.SH SYNOPSIS
+sham [SHELL-SCRIPT] {PARAMETERS}
+.SH DESCRIPTION
+sham is an app that takes a shell script, puts it into another c++ file with the nessesary contents to run it, compiles it, and gets everything ready.
+.SH OPTIONS
+--help/-h/-H                           show this dialogue
+-v/--version/-V                        print out the current versio
+-B <directory>                         add <directory> to the compi
+-E                                     preprocess only; do not comp
+-S                                     compile only; do not assembl
+-c                                     compile and assemble, but do
+-o <file>                              output executable into <file
+
+.SH SEE ALSO
+GCC(1) 
+.SH BUGS
+No known bugs.
+.SH AUTHOR
+NEOLabs software (neolabs-software@proton.me)
