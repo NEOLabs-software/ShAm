@@ -1,0 +1,12 @@
+2023-12-17 NEOLabs-software <neolabs-software@proton.me>
+			
+
+			* src/main.cpp
+			* src/constructsh.cpp
+			* src/compilesh.cpp
+			* src/sham.h
+			* .gitignore: remove some files from git 
+			* COPYING: just the license
+			* meson.build
+			* MAINTAINERS
+			* README.md
