@@ -21,3 +21,8 @@
 			* doc/support/contact_info.md 
 			* doc/user/tutorials/instalation.md 
 			* doc/user/manual.md 
+2023-12-19 NEOLabs-software <neolabs-software@proton.me)
+
+
+			*doc/man/man/sham.1|.gz|: change it into a gzip
+			*meson.build: install the man page
