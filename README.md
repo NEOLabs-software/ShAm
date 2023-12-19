@@ -1,5 +1,6 @@
 # ShAm
 
+![S h A m](https://github.com/NEOLabs-software/ShAm/assets/101670923/f81c2e1a-e67f-4aa9-85a0-4282599efd59)
 
 a shell script compiler for linux
 # ways to install
@@ -7,7 +8,7 @@ the ways to install are
 
 * deb package
 
-* rpm package
+* ppa package(not tested)
 
 * aur package
 
@@ -24,44 +25,38 @@ cd Downloads
 and install it
 
 ```
-sudo dpkg -i sham.deb
+sudo dpkg -i sham*.deb
 ```
 
-# rpm package
+# ppa
 
-download the rpm package and cd into the cirectory
-
+run the command
 ```
-cd Downloads
+sudo add-apt-repository ppa:thayeeboi890/sham
 ```
 
 and install it
 
 ```
-sudo rpm -i sham-1.0.1-1.x86_64.rpm
+sudo apt-get update ; sudp apt-get install sham
 ```
 
-# appimage installer
+# aur
 
-download the file and cd into the dicectory
-
-```
-cd Downloads
-```
-
-make the appimage executable
+git clone the aur and cd into it
 
 ```
-chmod +x installsham.appimage
+git clone https://aur.archlinux.org/sham.git ; cd sham
 ```
 
-and now execute it
+compile the aur package
 
 ```
-./installsham.appimage
+makepkg -si
 ```
 
-it will guide you trhough some steps
+
+after it finishes, you will now have sham installed in your system
 
 # sourcecode
 
