@@ -13,4 +13,7 @@ headers = [
 exe = executable('sham', sources, include_directories: '.',
   install : true)
 
+install_data('doc/man/sham.1.gz', install_dir : '/usr/local/man/man1/')
+
+
 test('basic', exe)
