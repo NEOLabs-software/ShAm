@@ -2,7 +2,10 @@
 
 ![S h A m](https://github.com/NEOLabs-software/ShAm/assets/101670923/f81c2e1a-e67f-4aa9-85a0-4282599efd59)
 
-a shell script compiler for linux
+a shell script compiler for linux that converts shell into cpp and then compiles that code
+
+it can get janky but it still compiles it
+
 # ways to install
 the ways to install are
 
